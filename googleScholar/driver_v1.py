@@ -40,7 +40,7 @@ def read_csv(datafile, social_sciences = False):
 
     return titles_authors_dict
 
-input_file = '/Users/shubhamgondane/volunteer_work/data/book_publishers_data/analysis/Education_books.csv'
+input_file = '~/volunteer_work/data/book_publishers_data/analysis/Education_books.csv'
 
 # Run for first time
 titles_authors_dict = read_csv(input_file, social_sciences=True)

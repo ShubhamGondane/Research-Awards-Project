@@ -16,8 +16,8 @@ print( "Gender: " + data["gender"]) #Gender: male
 
 
 
-journals_path = '/Users/shubhamgondane/volunteer_work/data/article_journals_data/Journals_data/'
-authors_path = '/Users/shubhamgondane/volunteer_work/data/article_journals_data/Authors_data/'
+journals_path = '~/volunteer_work/data/article_journals_data/Journals_data/'
+authors_path = '~/volunteer_work/data/article_journals_data/Authors_data/'
 journals = [f for f in listdir(journals_path) if isfile(join(journals_path, f)) and f not in ['.DS_Store']]
 
 # for journal in journals:

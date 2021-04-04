@@ -7,7 +7,7 @@ from numpy import nan
 from tqdm import tqdm 
 
 
-path_ = '/Users/shubhamgondane/volunteer_work/data/article_journals_data/'
+path_ = '~/volunteer_work/data/article_journals_data/'
 book_files = [f for f in listdir(path_) if isfile(join(path_, f)) and f != '.DS_Store']
 
 columns_to_drop = []

@@ -18,8 +18,8 @@ print(result.columns)
 
 
 
-input_folder = '/Users/shubhamgondane/volunteer_work/data/book_publishers_data/authors_data/Gender_output/'
-output_folder = '/Users/shubhamgondane/volunteer_work/data/book_publishers_data/authors_data/Race/'
+input_folder = '~/volunteer_work/data/book_publishers_data/authors_data/Gender_output/'
+output_folder = '~/volunteer_work/data/book_publishers_data/authors_data/Race/'
 
 input_files = [f for f in listdir(input_folder) if isfile(join(input_folder, f)) and f != '.DS_Store']
 

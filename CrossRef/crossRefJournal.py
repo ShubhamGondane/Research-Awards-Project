@@ -8,7 +8,7 @@ from nested_dict_to_csv import main
 cr = Crossref()
 
 journals = ["American Educational Research Journal", "Educational Evaluation and Policy Analysis", "Educational Researcher", "Journal of Educational and Behavioral Statistics", "Comparative Education Review", "Educational Administration Quarterly","Journal of Research on Leadership Education"]
-base_path = '/Users/shubhamgondane/volunteer_work/data/article_journals_data/'
+base_path = '~/volunteer_work/data/article_journals_data/'
 
 def getRelevantArticles(journal):
 	filters = {

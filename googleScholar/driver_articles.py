@@ -32,7 +32,7 @@ def read_csv(datafile):
 
 	# return titles_authors_dict
 
-input_file = '/Users/shubhamgondane/volunteer_work/data/article_journals_data/Journals_data/American Educational Research Journal.csv'
+input_file = '~/volunteer_work/data/article_journals_data/Journals_data/American Educational Research Journal.csv'
 
 # Run for first time
 titles = read_csv(input_file)

@@ -9,7 +9,7 @@ import string
 https://developers.google.com/books/docs/v1/reference/volumes/list?apix=true&apix_params=%7B%22maxResults%22%3A5%2C%22orderBy%22%3A%22relevance%22%2C%22q%22%3A%22Equity%20and%20Excellence%20in%20American%20Higher%20Education%22%7D
 '''
 api = googlebooks.Api()
-input_file = "/Users/shubhamgondane/volunteer_work/data/Book_Awards.csv"
+input_file = "~/volunteer_work/data/Book_Awards.csv"
 api_key = ""
 
 def getJSONFromAPIUsingPrefix(query, prefix=True):
@@ -105,7 +105,7 @@ def getBookInfo(api, input_file):
 	return df
 
 output_df = getBookInfo(api, input_file)
-output_df.to_csv("/Users/shubhamgondane/volunteer_work/data/Book_Awards1.csv")
+output_df.to_csv("~/volunteer_work/data/Book_Awards1.csv")
 
 
 

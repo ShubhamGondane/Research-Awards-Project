@@ -81,8 +81,8 @@ def get_altmetric_data(link):
 # print(tweets)
 
 file = 'Journal of Educational and Behavioral Statistics_1'
-base_file_path = '/Users/shubhamgondane/volunteer_work/data/article_journals_data/Journals_data/'+file+'.csv'
-output_file_path = '/Users/shubhamgondane/volunteer_work/data/article_journals_data/Twitter_data/JournalofEducationalandBehavioralStatistics/'+file
+base_file_path = '~/volunteer_work/data/article_journals_data/Journals_data/'+file+'.csv'
+output_file_path = '~/volunteer_work/data/article_journals_data/Twitter_data/JournalofEducationalandBehavioralStatistics/'+file
 def process_journal(file):
 	df = pd.read_csv(file, encoding='utf-8')
 	Dois = df['DOI'].values.tolist()

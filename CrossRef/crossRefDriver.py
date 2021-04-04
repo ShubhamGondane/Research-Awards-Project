@@ -5,7 +5,7 @@ from tqdm import tqdm
 import string
 
 cr = Crossref()
-input_file = "/Users/shubhamgondane/volunteer_work/data/Article_Awards.csv"
+input_file = "~/volunteer_work/data/Article_Awards.csv"
 
 def getEmptyLists(n):
 	return ["" for _ in range(n)]
@@ -107,5 +107,5 @@ def getArticleInfo(input_file):
 	return df
 
 output_df = getArticleInfo(input_file)
-output_df.to_csv("/Users/shubhamgondane/volunteer_work/data/Article_Awards1.csv", encoding="utf-8")
+output_df.to_csv("~/volunteer_work/data/Article_Awards1.csv", encoding="utf-8")
 

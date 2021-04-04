@@ -3,7 +3,7 @@ from os import listdir
 from os.path import isfile, join
 from tqdm import tqdm 
 
-path_ = '/Users/shubhamgondane/volunteer_work/data/book_publishers_data/books_data/'
+path_ = '~/volunteer_work/data/book_publishers_data/books_data/'
 book_files = [f for f in listdir(path_) if isfile(join(path_, f)) and f != '.DS_Store']
 
 dfs = []

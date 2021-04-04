@@ -5,9 +5,9 @@ from tqdm import tqdm
 
 
 api = googlebooks.Api()
-input_file = "/Users/shubhamgondane/volunteer_work/data/Book_Awards.csv"
+input_file = "~/volunteer_work/data/Book_Awards.csv"
 # api_key = ""
-log_file = open("/Users/shubhamgondane/volunteer_work/src/logging_google_books.txt","w")
+log_file = open("~/volunteer_work/src/logging_google_books.txt","w")
 
 def readFromCSV(input_file):
 	'''
@@ -57,12 +57,12 @@ def writeToCSV(json_items_list, publisher_name):
 	'''
 	if not json_items_list:
 		return
-	base_path = '/Users/shubhamgondane/volunteer_work/data/book_publishers_data/'
+	base_path = '~/volunteer_work/data/book_publishers_data/'
 	output_file_path = base_path + publisher_name + '.csv'
 	print("Writing {} items to file".format(len(json_items_list)))
 	pd.read_json(json.dumps(json_items_list)).to_csv(output_file_path)
 
-input_file = "/Users/shubhamgondane/volunteer_work/data/publisher_data.csv"
+input_file = "~/volunteer_work/data/publisher_data.csv"
 publishers_list = readFromCSV(input_file)
 
 for publisher in tqdm(publishers_list, desc="Processing Publishers"):
