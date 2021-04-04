@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 api = googlebooks.Api()
 input_file = "/Users/shubhamgondane/volunteer_work/data/Book_Awards.csv"
-# api_key = "AIzaSyCxutnfKcPnm6iQWFHowebW6RWvIM5Av7A"
+# api_key = ""
 log_file = open("/Users/shubhamgondane/volunteer_work/src/logging_google_books.txt","w")
 
 def readFromCSV(input_file):
