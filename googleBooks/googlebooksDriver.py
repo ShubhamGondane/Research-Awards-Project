@@ -10,7 +10,7 @@ https://developers.google.com/books/docs/v1/reference/volumes/list?apix=true&api
 '''
 api = googlebooks.Api()
 input_file = "/Users/shubhamgondane/volunteer_work/data/Book_Awards.csv"
-api_key = "AIzaSyCxutnfKcPnm6iQWFHowebW6RWvIM5Av7A"
+api_key = ""
 
 def getJSONFromAPIUsingPrefix(query, prefix=True):
 	json_data = api.list(q=query, maxResults=5, orderBy="relevance")
