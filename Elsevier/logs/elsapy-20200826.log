@@ -1,0 +1,22 @@
+2020-08-26 09:22:34,693 - elsapy.elsclient - INFO - Module loaded.
+2020-08-26 09:22:35,293 - elsapy.elsentity - INFO - Module loaded.
+2020-08-26 09:22:35,294 - elsapy.utils - INFO - Module loaded.
+2020-08-26 09:22:35,295 - elsapy.elsprofile - INFO - Module loaded.
+2020-08-26 09:22:35,297 - elsapy.elsdoc - INFO - Module loaded.
+2020-08-26 09:22:35,298 - elsapy.elssearch - INFO - Module loaded.
+2020-08-26 09:22:35,693 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.3102/0002831207312910
+2020-08-26 09:22:36,913 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.3102/0002831207312910
+and using headers {'X-ELS-APIKey': '8018a6655e38f95c35e701e2500ec434', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2020-08-26 09:23:20,402 - elsapy.elsclient - INFO - Module loaded.
+2020-08-26 09:23:20,688 - elsapy.elsentity - INFO - Module loaded.
+2020-08-26 09:23:20,689 - elsapy.utils - INFO - Module loaded.
+2020-08-26 09:23:20,689 - elsapy.elsprofile - INFO - Module loaded.
+2020-08-26 09:23:20,692 - elsapy.elsdoc - INFO - Module loaded.
+2020-08-26 09:23:20,693 - elsapy.elssearch - INFO - Module loaded.
+2020-08-26 09:25:55,089 - elsapy.elsclient - INFO - Module loaded.
+2020-08-26 09:25:55,573 - elsapy.elsentity - INFO - Module loaded.
+2020-08-26 09:25:55,575 - elsapy.utils - INFO - Module loaded.
+2020-08-26 09:25:55,575 - elsapy.elsprofile - INFO - Module loaded.
+2020-08-26 09:25:55,577 - elsapy.elsdoc - INFO - Module loaded.
+2020-08-26 09:25:55,579 - elsapy.elssearch - INFO - Module loaded.
